@@ -27,7 +27,7 @@ try:
     nota1 = int(nota1)
     nota2 = int(nota2)
     if (nota1 < 0) or (nota2 < 0):
-        raise Exception("No se puede ingresar valor menore a cero")
+        raise Exception("No se puede ingresar valores menores a cero")
     promedio = int(nota1) / int(nota2)
     print("Los datos ingresados son: \nNombre: %s\nNota1: %d \nNota2: %d\
             \nPromedio: %f" % (nombre, int(nota1), int(nota2), promedio))

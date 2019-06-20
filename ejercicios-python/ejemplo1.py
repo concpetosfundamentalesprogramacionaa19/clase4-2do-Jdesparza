@@ -9,11 +9,12 @@
         resultado = valor/valor2
     ZeroDivisionError: division by zero
 """
-
+# declaracion de variables
 valor = 10
 valor2 = 0
-
+# operacion de division
 resultado = valor/valor2
+# se imprime un mensaje con el valor de la variable resultado
 print("El resultado es " % resultado)
 
 
